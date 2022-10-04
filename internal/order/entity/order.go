@@ -2,6 +2,7 @@ package entity
 
 import "errors"
 
+// Interface define um comportamento de um tipo, no caso o comportamento de salvar o objeto
 type OrderRepositoryInterface interface {
 	Save(order *Order) error
 }
